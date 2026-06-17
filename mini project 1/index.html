@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip & Split Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Tip & Split Calculator</h2>
+
+    <form id="tipForm">
+
+        <label>Bill Amount (₹)</label>
+        <input type="number" id="bill" placeholder="Enter Bill Amount">
+
+        <label>Tip Percentage (%)</label>
+        <input type="number" id="tip" placeholder="Enter Tip Percentage">
+
+        <label>Number of People</label>
+        <input type="number" id="people" placeholder="Enter Number of People">
+
+        <button type="submit">Calculate</button>
+
+    </form>
+
+    <div id="result">
+        <h3>Results</h3>
+        <p>Tip Amount: ₹<span id="tipAmount">0</span></p>
+        <p>Total Bill: ₹<span id="totalBill">0</span></p>
+        <p>Per Person: ₹<span id="perPerson">0</span></p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
